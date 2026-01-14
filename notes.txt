@@ -1,0 +1,7 @@
+----- Ways to navigate using provided React Router DOM tools -----
+
+Link - Prevents a full page reload (unlike anchor tags), and will render the page you wish to navigate to.
+
+NavLink - Does the same thing that Link does but NavLink knows which route is cuurntly active, it has an isActive prop
+
+useNavigate - is a hook in react that gives us a function that we can call to navigate the user to a particular page
