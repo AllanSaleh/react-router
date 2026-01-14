@@ -8,6 +8,7 @@ const Navbar = () => {
         <NavLink className={({ isActive }) => isActive ? 'isActive' : "navLink"} to="/">HOME</NavLink>
         <NavLink className={({ isActive }) => isActive ? 'isActive' : "navLink"} to="/contact-me">CONTACT</NavLink>
         <NavLink className={({ isActive }) => isActive ? 'isActive' : "navLink"} to="/about">ABOUT</NavLink>
+        <NavLink className={({ isActive }) => isActive ? 'isActive' : "navLink"} to="/posts">POSTS</NavLink>
       </ul>
     </nav>
   )
